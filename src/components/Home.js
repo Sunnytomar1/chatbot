@@ -105,8 +105,8 @@ const Container = styled.div `
 height:100vh;
 background-color:black;
 display:flex;
-align-items:end;
-justify-content:right;
+align-items:flex-end;
+justify-content:flex-end;
 
 `
 
@@ -118,8 +118,9 @@ height:70px;
 width:70px;
 background-color:#fff;
 border-radius:50%;
-margin-bottom:40px;
-margin-right:30px;
+
+justify-content:flex-end;
+
 cursor:pointer;
 
 display:flex;
